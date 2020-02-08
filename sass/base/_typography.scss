@@ -1,0 +1,37 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+}
+
+.text__container {
+  color: $color_white;
+  width: 50%;
+  text-align: left;
+  position: absolute;
+  right: 12rem;
+
+  h2 {
+    font-size: 4.5rem !important;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: $color_white;
+    letter-spacing: .3rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+    color: #A0A0A0;
+    letter-spacing: 0;
+    line-height: 2.7rem;
+    margin-bottom: 1.4rem;
+  }
+}
+
+.showcase__intro--text-secondary {
+  font-size: 4.5rem;
+}

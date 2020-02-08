@@ -1,0 +1,17 @@
+{
+  "name": "tertiv",
+  "version": "1.0.0",
+  "description": "landing for trillo",
+  "main": "index.js",
+  "scripts": {
+    "compile:trillo": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

@@ -1,0 +1,13 @@
+.landing__circle {
+  //animation: shrinkCircle 1s ease-out;
+  width: 75rem;
+  height: 75rem;
+  //box-shadow: 2px 1px 10px #000;
+  border-radius: 100%;
+  //border: .5px solid #191717;
+  //background: rgba(0,0,0,.3);
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translateY(-50%) translateX(-50%) matrix(0.85, 0, 0, 0.85, 0, 0);
+}

@@ -1,0 +1,132 @@
+@keyframes moveRight {
+  0% {
+    transform: rotateZ(0);
+  }
+
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+
+@keyframes fx {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  12.5% {
+    transform: translate3d(0, 0, 0);
+  }
+  25% {
+    transform: translate3d(0, -25%, 0);
+  }
+  37.5% {
+    transform: translate3d(0, -25%, 0);
+  }
+  50% {
+    transform: translate3d(0, -50%, 0);
+  }
+  62.5% {
+    transform: translate3d(0, -50%, 0);
+  }
+  75% {
+    transform: translate3d(0, -75%, 0);
+  }
+  87.5% {
+    transform: translate3d(0, -75%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rx {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  10% {
+    transform: translate3d(0, 0, 0);
+  }
+  20% {
+    transform: translate3d(0, -20%, 0);
+  }
+  30% {
+    transform: translate3d(0, -20%, 0);
+  }
+  40% {
+    transform: translate3d(0, -40%, 0);
+  }
+  50% {
+    transform: translate3d(0, -40%, 0);
+  }
+  60% {
+    transform: translate3d(0, -60%, 0);
+  }
+  70% {
+    transform: translate3d(0, -60%, 0);
+  }
+  80% {
+    transform: translate3d(0, -80%, 0);
+  }
+  90% {
+    transform: translate3d(0, -80%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes shrinkCircle {
+  0% {
+    width: 200rem;
+    height: 200rem;
+  }
+
+  100% {
+    width: 75rem;
+    height: 75rem;
+    border: .5px solid #191717;
+  }
+}
+
+@keyframes showOpacity {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes controlRadial {
+  0% {
+    background: radial-gradient(circle farthest-side, transparent, $color_black);
+  }
+  100% {
+    background: radial-gradient(circle closest-side, transparent, $color_black);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
