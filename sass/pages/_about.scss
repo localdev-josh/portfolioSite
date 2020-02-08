@@ -1,5 +1,6 @@
 .landing__about {
-  background: url(../../img/seun__ajiboye_20200203_090758_0.jpg) no-repeat center center !important;
+  background: url(../../img/IMG_20191030_204154.jpg) no-repeat center center !important;
+  background-size: contain !important;
 
   .showcase__about {
     position: absolute;
@@ -15,4 +16,9 @@
       letter-spacing: 1.5px;
     }
   }
+}
+
+.landing__about--extend {
+  width: 100%;
+  height: 100vh;
 }
